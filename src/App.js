@@ -1,14 +1,16 @@
-import Nav from './components/Nav';
-import Jumbotron from './components/Jumbotron';
+import { Route, Switch } from 'react-router';
+import Main from './components/Main';
 
 import './App.scss';
 
 function App() {
   return (
     <div className="app">
-      <Nav />
-
-      <Jumbotron />
+      <Switch>
+        <Route exact path="/">
+          <Main />
+        </Route>
+      </Switch>
     </div>
   );
 }
