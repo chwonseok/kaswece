@@ -1,0 +1,31 @@
+.gallery-grid {
+  display: grid;
+  width: 100%;
+  height: 100px;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.gallery-grid div img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.div1 {
+  grid-area: 1 / 1 / 3 / 5;
+}
+.div2 {
+  grid-area: 1 / 5 / 2 / 7;
+}
+.div3 {
+  grid-area: 2 / 5 / 3 / 7;
+}
+.div4 {
+  grid-area: 3 / 1 / 4 / 4;
+}
+.div5 {
+  grid-area: 3 / 4 / 4 / 7;
+}

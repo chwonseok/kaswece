@@ -1,3 +1,5 @@
+$main-color: #e97879;
+
 .newitems-box {
   display: flex;
   justify-content: space-evenly;
@@ -25,7 +27,7 @@
 
   font-size: 0.8rem;
 
-  background: #000;
+  background: $main-color;
   color: #fff;
   width: 44px;
   height: 44px;
