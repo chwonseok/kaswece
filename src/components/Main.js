@@ -1,5 +1,6 @@
 import Nav from './Nav';
 import Jumbotron from './Jumbotron';
+import Message from './Message';
 
 import './Main.scss';
 
@@ -9,6 +10,8 @@ export default function Home() {
       <Nav />
 
       <Jumbotron />
+
+      <Message />
     </div>
   );
 }
