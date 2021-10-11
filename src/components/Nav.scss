@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+$main-color: #e97879;
+
+.container {
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.home {
+  font-family: monoton;
+  font-size: 2rem;
+  color: $main-color;
+}
+
+.nav-menu {
+  display: flex;
+
+  font-family: 'Gothic A1', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.nav-menu li {
+  margin-right: 2rem;
+}
+
+.nav-right {
+  display: flex;
+}
+
+.nav-right div {
+  margin-right: 2rem;
+}
