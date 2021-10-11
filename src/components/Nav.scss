@@ -4,15 +4,15 @@ $main-color: #e97879;
 
 .container {
   width: 100%;
-  max-width: 1240px;
+  max-width: 1540px;
   margin: 0 auto;
 }
 
-nav {
+.nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 2rem 0;
+  padding: 1rem 0;
 }
 
 .home {
@@ -23,8 +23,6 @@ nav {
 
 .nav-menu {
   display: flex;
-
-  font-family: 'Gothic A1', sans-serif;
   font-size: 0.95rem;
   font-weight: 500;
 }

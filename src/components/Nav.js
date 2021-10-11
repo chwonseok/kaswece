@@ -2,7 +2,7 @@ import './Nav.scss';
 
 export default function Nav() {
   return (
-    <nav className="container">
+    <nav className="nav container">
       <div className="nav-left">
         <h1 className="home">KASWECE</h1>
       </div>
@@ -15,13 +15,13 @@ export default function Nav() {
       </ul>
       <div className="nav-right">
         <div>
-          <i class="fas fa-search"></i>
+          <i className="fas fa-search"></i>
         </div>
         <div>
-          <i class="fas fa-user-alt"></i>
+          <i className="fas fa-user-alt"></i>
         </div>
         <div>
-          <i class="fas fa-shopping-cart"></i>
+          <i className="fas fa-shopping-cart"></i>
         </div>
       </div>
     </nav>
