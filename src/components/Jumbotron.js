@@ -5,8 +5,8 @@ export default function Jumbotron() {
     <div className="jumbotron">
       <div className="video-box">
         <video
-          className="bg-video"
           src={process.env.PUBLIC_URL + '/images/bg-video.mp4'}
+          className="bg-video"
           autoPlay
           muted
           loop
