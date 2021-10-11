@@ -1,3 +1,5 @@
+import { Carousel } from 'react-responsive-carousel';
+
 import './Slider.scss';
 
 export default function Slider() {
