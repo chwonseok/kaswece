@@ -8,7 +8,7 @@ export default function Banner() {
     <div className="container">
       <Carousel
         autoPlay={true}
-        interval={10000}
+        interval={5000}
         showArrows={true}
         centerMode={true}
         centerSlidePercentage={50}
