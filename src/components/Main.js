@@ -7,6 +7,7 @@ import './Main.scss';
 import NewItems from './NewItems';
 import Gallery from './Gallery';
 import ToDonate from './ToDonate';
+import Others from './Others';
 
 export default function Home() {
   return (
@@ -24,6 +25,8 @@ export default function Home() {
       <Gallery />
 
       <ToDonate />
+
+      <Others />
     </div>
   );
 }
