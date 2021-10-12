@@ -51,16 +51,6 @@ i:hover {
   margin-bottom: 0.6rem;
 }
 
-.company-info__detail span::after {
-  content: '|';
-  margin-right: 0.4rem;
-  margin-left: 0.4rem;
-}
-
-.company-info__detail span:last-child::after {
-  content: none;
-}
-
 /*** My Info ***/
 .my-info {
   padding: 1rem 0;

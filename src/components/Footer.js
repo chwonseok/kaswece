@@ -21,18 +21,18 @@ export default function Footer() {
 
         <div className="company-info__detail-wrap">
           <div className="company-info__detail flex">
-            <span>상호: 한국발도르프영유아교육연대 KASWECE</span>
-            <span>대표: 홍길동</span>
-            <span>개인정보관리책임자: 홍길동</span>
-            <span>전화: 012-3456-7890</span>
-            <span>이메일: abcdg@abcd.com</span>
+            <span>
+              상호: 한국발도르프영유아교육연대 KASWECE | 대표: 홍길동 |
+              개인정보관리책임자: 홍길동 | 전화: 012-3456-7890 | 이메일:
+              abcdg@abcd.com
+            </span>
           </div>
           <div className="company-info__detail flex">
-            <span>상호: 한국발도르프영유아교육연대 KASWECE</span>
-            <span>주소: 대한민국 서울시 마포구</span>
-            <span>사업자등록번호: 123456789</span>
-            <span>통신판매: 000-00000-0000000</span>
-            <span>호스팅제공자: GIHUB</span>
+            <span>
+              상호: 한국발도르프영유아교육연대 KASWECE | 주소: 대한민국 서울시
+              마포구 | 사업자등록번호: 123456789 | 통신판매: 000-00000-0000000 |
+              호스팅제공자: GIHUB
+            </span>
           </div>
         </div>
         <div>
