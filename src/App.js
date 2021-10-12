@@ -1,17 +1,17 @@
-import { Route, Switch } from 'react-router';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Main from './components/Main';
 
 import './App.scss';
 
 function App() {
   return (
-    <div className="app">
+    <BrowserRouter>
       <Switch>
         <Route path="/">
           <Main />
         </Route>
       </Switch>
-    </div>
+    </BrowserRouter>
   );
 }
 
