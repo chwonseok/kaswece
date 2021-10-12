@@ -1,0 +1,26 @@
+$main-color: #e97879;
+
+.donate {
+  text-align: center;
+}
+
+.donate h2 {
+  margin-bottom: 2rem;
+}
+
+.btn {
+  color: #fff;
+  background: $main-color;
+  border-radius: 0.5rem;
+
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.donate-btn {
+  font-size: 1.2rem;
+  padding: 0.8rem 1.5rem;
+}
