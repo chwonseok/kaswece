@@ -1,12 +1,18 @@
-.carousel .slide {
-  cursor: pointer;
+.carousel {
+  .slide {
+    cursor: pointer;
+  }
 }
 
-.carousel .slide .legend {
-  background: none;
-  top: 40%;
-  font-family: 'Nanum Brush Script', cursive;
-  font-size: 5rem;
-  opacity: 1;
-  border: none;
+.carousel {
+  .slide {
+    .legend {
+      background: none;
+      top: 40%;
+      font-family: 'Nanum Brush Script', cursive;
+      font-size: 5rem;
+      opacity: 1;
+      border: none;
+    }
+  }
 }

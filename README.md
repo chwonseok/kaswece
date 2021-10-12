@@ -23,3 +23,4 @@ React Responsive Carousel
 5. 페이지 추가: 후원하기 -> /donate (or 모듈)
 6. 페이지 추가: 놀잇감 -> /toys
 7. 페이지 추가: 기타용품 -> /others
+8. 반응형 코드 추가
