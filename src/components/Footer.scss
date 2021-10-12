@@ -1,0 +1,84 @@
+$main-color: #e97879;
+$companyinfo-color: #f6f6f6;
+$myinfo-color: #3f3f52;
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  width: 100%;
+  text-align: center;
+  background: $myinfo-color;
+
+  margin-top: 8rem;
+}
+
+a:hover,
+i:hover {
+  color: $main-color;
+}
+
+/*** Company Info ***/
+
+.company-info {
+  background: $companyinfo-color;
+
+  padding: 2.5rem 0;
+}
+
+.company-info span {
+  color: #3b3b3bc9;
+  font-size: 0.9rem;
+}
+
+.company-info__main a {
+  margin: 1rem;
+  margin-bottom: 1.5rem;
+  text-decoration: none;
+}
+
+.company-info__main span:hover {
+  color: #000;
+}
+
+.company-info__detail-wrap {
+  margin-bottom: 1rem;
+}
+
+.company-info__detail {
+  margin-bottom: 0.6rem;
+}
+
+.company-info__detail span::after {
+  content: '|';
+  margin-right: 0.4rem;
+  margin-left: 0.4rem;
+}
+
+.company-info__detail span:last-child::after {
+  content: none;
+}
+
+/*** My Info ***/
+.my-info {
+  padding: 1rem 0;
+}
+
+.my-info a {
+  color: #fff;
+}
+
+.fab {
+  margin: 1rem 0.5rem;
+}
+
+.my-info h3 {
+  font-size: 0.8rem;
+  color: #fff;
+}
+
+.my-info h3 a {
+  text-decoration: none;
+}
