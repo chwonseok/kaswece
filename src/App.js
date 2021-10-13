@@ -7,9 +7,8 @@ function App() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/">
-          <Main />
-        </Route>
+        <Route path="/" component={Main} />
+        {/* 여기에 쭉 작성하기 */}
       </Switch>
     </BrowserRouter>
   );
