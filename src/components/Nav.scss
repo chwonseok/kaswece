@@ -33,11 +33,12 @@ a {
 
 .nav-menu {
   .nav-btn {
-    position: relative; // For nav bar effect when hover
+    position: relative; // For Nav bar effect when hover
     margin-right: 2rem;
   }
 }
 
+// Nav bar effect
 .nav-menu {
   .nav-btn::after {
     position: absolute;

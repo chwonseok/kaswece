@@ -1,7 +1,21 @@
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
+
+import Dropdown from './Dropdown';
+
 import './Nav.scss';
 
 export default function Nav() {
+  const [dropdown, setDropdown] = useState(false);
+
+  const onMouseEnter = () => {
+    // 나중에 반응형 만들 때 if 조건 달기 with window.innerWidth < Number
+    setDropdown(true);
+  };
+  const onMouseLeave = () => {
+    setDropdown(false);
+  };
+
   return (
     <nav className="nav container">
       <Link to="/" className="home">
@@ -9,8 +23,9 @@ export default function Nav() {
       </Link>
 
       <ul className="nav-menu">
-        <li>
+        <li onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
           <Link className="nav-btn">한국발도르프영유아교육연대</Link>
+          {dropdown ? <Dropdown /> : ''}
         </li>
         <li>
           <Link className="nav-btn">놀잇감</Link>
