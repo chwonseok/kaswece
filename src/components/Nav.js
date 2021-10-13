@@ -23,20 +23,24 @@ export default function Nav() {
       </Link>
 
       <ul className="nav-menu">
-        <li onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
+        <li
+          className="nav-item"
+          onMouseEnter={onMouseEnter}
+          onMouseLeave={onMouseLeave}
+        >
           <Link className="nav-btn">한국발도르프영유아교육연대</Link>
           {dropdown ? <Dropdown /> : ''}
         </li>
-        <li>
+        <li className="nav-item">
           <Link className="nav-btn">놀잇감</Link>
         </li>
-        <li>
+        <li className="nav-item">
           <Link className="nav-btn">기타용품</Link>
         </li>
-        <li>
+        <li className="nav-item">
           <Link className="nav-btn">아나바다</Link>
         </li>
-        <li>
+        <li className="nav-item">
           <Link className="nav-btn">게시판</Link>
         </li>
       </ul>
