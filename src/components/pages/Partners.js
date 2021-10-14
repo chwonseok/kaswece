@@ -1,9 +1,19 @@
 import HeadImg from './HeadImg';
 import partners from '../../db/Partner-list';
+import Modal from './Modal';
 
 import './Partners.scss';
+import { useState } from 'react';
+
+let id;
 
 export default function Partners() {
+  const [showModal, setShowModal] = useState(false);
+
+  const openModal = () => setShowModal(true);
+
+  const closeModal = (value) => setShowModal(value);
+
   return (
     <>
       <HeadImg />
@@ -16,6 +26,11 @@ export default function Partners() {
           {partners.map((partner) => {
             return (
               <div
+                key={partner.id}
+                onClick={() => {
+                  openModal();
+                  id = partner.id;
+                }}
                 className="partner-box"
                 style={{ background: partner.color }}
               >
@@ -25,6 +40,7 @@ export default function Partners() {
           })}
         </div>
       </div>
+      {showModal ? <Modal id={id} onCloseModal={closeModal} /> : ''}
     </>
   );
 }
