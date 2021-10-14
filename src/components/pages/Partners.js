@@ -1,8 +1,10 @@
 import HeadImg from './HeadImg';
+import partners from '../../db/Partner-list';
 
 import './Partners.scss';
 
 export default function Partners() {
+  console.log(partners);
   return (
     <>
       <HeadImg />
