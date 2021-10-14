@@ -2,6 +2,7 @@ $main-color: #e97879;
 
 .guide-box {
   display: flex;
+  padding: 3rem;
 }
 
 .guide-left {
@@ -16,6 +17,7 @@ $main-color: #e97879;
 }
 
 .guide-left p {
+  font-size: 0.9rem;
   line-height: 1.6rem;
   margin-bottom: 3rem;
 }
@@ -23,7 +25,7 @@ $main-color: #e97879;
 .guide-right {
   width: 50%;
   height: 50vh;
-  padding: 6rem 3rem;
+  padding: 2rem;
 }
 
 .guide-img {

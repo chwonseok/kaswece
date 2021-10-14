@@ -16,7 +16,9 @@ export default function Dropdown() {
         </Link>
       </li>
       <li>
-        <Link className="dropdown-btn">회원기관</Link>
+        <Link to="/partners" className="dropdown-btn">
+          회원기관
+        </Link>
       </li>
     </ul>
   );

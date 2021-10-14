@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import Greeting from './components/pages/Greeting';
 import Donate from './components/pages/Donate';
 import Guide from './components/pages/Guide';
+import Partners from './components/pages/Partners';
 
 import './App.scss';
 
@@ -19,6 +20,7 @@ function App() {
           <Route path="/greeting" exact component={Greeting} />
           <Route path="/donate" exact component={Donate} />
           <Route path="/guide" exact component={Guide} />
+          <Route path="/partners" exact component={Partners} />
         </Switch>
         <Footer />
       </BrowserRouter>
