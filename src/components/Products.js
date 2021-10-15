@@ -2,18 +2,18 @@ import './Products.scss';
 
 export default function Products({ items }) {
   return (
-    <div className="toys-box">
-      {items.map((toy) => {
+    <div className="products-box">
+      {items.map((product) => {
         return (
-          <div key={toy.id} className="toy-box">
-            <div className="toy-img">
+          <div key={product.id} className="product-box">
+            <div className="product-img">
               <img
-                src={process.env.PUBLIC_URL + `/images/items/${toy.link}`}
-                alt={toy.name}
+                src={process.env.PUBLIC_URL + `/images/items/${product.link}`}
+                alt={product.name}
               />
             </div>
-            <div className="toy-name">{toy.name}</div>
-            <div className="toy-price">{toy.price}원</div>
+            <div className="product-name">{product.name}</div>
+            <div className="product-price">{product.price}원</div>
           </div>
         );
       })}
