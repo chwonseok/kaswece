@@ -3,6 +3,7 @@ import partners from '../../db/PartnerList';
 import Modal from './Modal';
 
 import './Partners.scss';
+import bg from '../../images/head-banner1.jpeg';
 import { useState } from 'react';
 
 let id;
@@ -16,7 +17,7 @@ export default function Partners() {
 
   return (
     <>
-      <HeadImg title={'KASWECE'} />
+      <HeadImg title={'KASWECE'} bg={bg} />
       <div className="title">
         <h1>회원 기관</h1>
       </div>

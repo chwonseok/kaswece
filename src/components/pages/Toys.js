@@ -1,12 +1,14 @@
 import HeadImg from './HeadImg';
 import data from '../../db/ItemsList';
 
+import bg from '../../images/toys-bg.jpeg';
+
 import './Toys.scss';
 
 export default function Toys() {
   return (
     <>
-      <HeadImg title={'놀잇감'} />
+      <HeadImg title={'놀잇감'} bg={bg} />
       <div className="title">
         <h1>놀잇감</h1>
       </div>

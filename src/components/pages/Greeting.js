@@ -1,11 +1,12 @@
 import './Greeting.scss';
+import bg from '../../images/head-banner1.jpeg';
 
 import HeadImg from './HeadImg';
 
 export default function Greeting() {
   return (
     <>
-      <HeadImg title={'KASWECE'} />
+      <HeadImg title={'KASWECE'} bg={bg} />
       <div className="title">
         <h1>인사말</h1>
       </div>

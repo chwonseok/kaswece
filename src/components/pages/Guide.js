@@ -1,11 +1,12 @@
 import HeadImg from './HeadImg';
+import bg from '../../images/head-banner1.jpeg';
 
 import './Guide.scss';
 
 export default function Guide() {
   return (
     <>
-      <HeadImg title={'KASWECE'} />
+      <HeadImg title={'KASWECE'} bg={bg} />
       <div className="title">
         <h1>이용 안내</h1>
       </div>
