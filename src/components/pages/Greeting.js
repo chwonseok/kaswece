@@ -1,7 +1,7 @@
-import './Greeting.scss';
+import HeadImg from './HeadImg';
 import bg from '../../images/head-banner1.jpeg';
 
-import HeadImg from './HeadImg';
+import './Greeting.scss';
 
 export default function Greeting() {
   return (

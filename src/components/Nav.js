@@ -28,7 +28,7 @@ export default function Nav() {
           onMouseEnter={onMouseEnter}
           onMouseLeave={onMouseLeave}
         >
-          <Link className="nav-btn">한국발도르프영유아교육연대</Link>
+          <div className="nav-btn">한국발도르프영유아교육연대</div>
           {dropdown ? <Dropdown /> : ''}
         </li>
         <li className="nav-item">
@@ -37,13 +37,15 @@ export default function Nav() {
           </Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-btn">기타용품</Link>
+          <Link to="/others" className="nav-btn">
+            기타용품
+          </Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-btn">아나바다</Link>
+          <div className="nav-btn">아나바다</div>
         </li>
         <li className="nav-item">
-          <Link className="nav-btn">게시판</Link>
+          <div className="nav-btn">게시판</div>
         </li>
       </ul>
 

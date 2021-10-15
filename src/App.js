@@ -8,6 +8,7 @@ import Donate from './components/pages/Donate';
 import Guide from './components/pages/Guide';
 import Partners from './components/pages/Partners';
 import Toys from './components/pages/Toys';
+import Others from './components/pages/Others';
 
 import './App.scss';
 
@@ -23,6 +24,7 @@ function App() {
           <Route path="/guide" exact component={Guide} />
           <Route path="/partners" exact component={Partners} />
           <Route path="/toys" exact component={Toys} />
+          <Route path="/others" exact component={Others} />
         </Switch>
         <Footer />
       </BrowserRouter>
