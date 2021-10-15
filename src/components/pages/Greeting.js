@@ -5,7 +5,7 @@ import HeadImg from './HeadImg';
 export default function Greeting() {
   return (
     <>
-      <HeadImg />
+      <HeadImg title={'KASWECE'} />
       <div className="title">
         <h1>인사말</h1>
       </div>

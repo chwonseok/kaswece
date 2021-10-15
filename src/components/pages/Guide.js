@@ -5,7 +5,7 @@ import './Guide.scss';
 export default function Guide() {
   return (
     <>
-      <HeadImg />
+      <HeadImg title={'KASWECE'} />
       <div className="title">
         <h1>이용 안내</h1>
       </div>

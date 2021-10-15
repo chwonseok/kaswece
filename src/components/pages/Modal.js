@@ -1,4 +1,4 @@
-import partners from '../../db/Partner-list';
+import partners from '../../db/PartnerList';
 
 import './Modal.scss';
 

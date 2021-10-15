@@ -18,7 +18,7 @@ export default function Nav() {
 
   return (
     <nav className="nav container">
-      <Link to="/" className="home">
+      <Link to="/kaswece" className="home">
         KASWECE
       </Link>
 
@@ -32,7 +32,9 @@ export default function Nav() {
           {dropdown ? <Dropdown /> : ''}
         </li>
         <li className="nav-item">
-          <Link className="nav-btn">놀잇감</Link>
+          <Link to="/toys" className="nav-btn">
+            놀잇감
+          </Link>
         </li>
         <li className="nav-item">
           <Link className="nav-btn">기타용품</Link>

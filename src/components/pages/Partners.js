@@ -1,5 +1,5 @@
 import HeadImg from './HeadImg';
-import partners from '../../db/Partner-list';
+import partners from '../../db/PartnerList';
 import Modal from './Modal';
 
 import './Partners.scss';
@@ -16,7 +16,7 @@ export default function Partners() {
 
   return (
     <>
-      <HeadImg />
+      <HeadImg title={'KASWECE'} />
       <div className="title">
         <h1>회원 기관</h1>
       </div>
