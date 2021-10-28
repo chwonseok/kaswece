@@ -22,6 +22,7 @@ export default function ItemDetail(props) {
             <span>배송비: </span> 무료
           </h3>
           {/* 수량 function 추가로 넣기 */}
+          <div className="item-quantity"></div>
           <button className="btn item-btn">구매하기</button>
         </div>
       </div>

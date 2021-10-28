@@ -14,9 +14,17 @@
 HTML, SCSS, React
 React Responsive Carousel
 
+## Update history
+
+- 2021.10.28. - 제품 상세 페이지 추가 from 놀잇감, 기타용품 pages
+- 2021.10.15. - landing page (main.js) 완성
+- 2021.10.14. - 회원관리 모달 기능 추가
+- 2021.10.13. - nav 호버 효과에 dropdown 기능 추가
+- 2021.10.12. - gh-pages로 live 기능 추가
+
 ## What to add
 
-1. 제품 상세 페이지 추가
-2. 아나바다 페이지 추가
-3. 게시판 페이지 추가
-4. 반응형 코드 추가
+1. 상세 페이지 내 주문수량 조절 기능 추가하기
+2. 아나바다 페이지 추가하기
+3. 게시판 페이지 추가하기
+4. 반응형 코드 추가하기
