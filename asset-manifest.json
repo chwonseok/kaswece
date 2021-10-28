@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/kaswece/static/css/main.d9bf5fbb.chunk.css",
-    "main.js": "/kaswece/static/js/main.da6608f6.chunk.js",
-    "main.js.map": "/kaswece/static/js/main.da6608f6.chunk.js.map",
+    "main.css": "/kaswece/static/css/main.05eb5cca.chunk.css",
+    "main.js": "/kaswece/static/js/main.f56be740.chunk.js",
+    "main.js.map": "/kaswece/static/js/main.f56be740.chunk.js.map",
     "runtime-main.js": "/kaswece/static/js/runtime-main.1871e917.js",
     "runtime-main.js.map": "/kaswece/static/js/runtime-main.1871e917.js.map",
     "static/css/2.ed1298f3.chunk.css": "/kaswece/static/css/2.ed1298f3.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.74422bd9.chunk.js.map": "/kaswece/static/js/2.74422bd9.chunk.js.map",
     "index.html": "/kaswece/index.html",
     "static/css/2.ed1298f3.chunk.css.map": "/kaswece/static/css/2.ed1298f3.chunk.css.map",
-    "static/css/main.d9bf5fbb.chunk.css.map": "/kaswece/static/css/main.d9bf5fbb.chunk.css.map",
+    "static/css/main.05eb5cca.chunk.css.map": "/kaswece/static/css/main.05eb5cca.chunk.css.map",
     "static/js/2.74422bd9.chunk.js.LICENSE.txt": "/kaswece/static/js/2.74422bd9.chunk.js.LICENSE.txt",
     "static/media/donate-bg.d34db2c0.jpeg": "/kaswece/static/media/donate-bg.d34db2c0.jpeg",
     "static/media/Guide.scss": "/kaswece/static/media/guide-img.e33f85d4.png",
@@ -23,7 +23,7 @@
     "static/js/runtime-main.1871e917.js",
     "static/css/2.ed1298f3.chunk.css",
     "static/js/2.74422bd9.chunk.js",
-    "static/css/main.d9bf5fbb.chunk.css",
-    "static/js/main.da6608f6.chunk.js"
+    "static/css/main.05eb5cca.chunk.css",
+    "static/js/main.f56be740.chunk.js"
   ]
 }
