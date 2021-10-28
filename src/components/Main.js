@@ -5,7 +5,7 @@ import Slider from './Slider';
 import NewItems from './NewItems';
 import Gallery from './Gallery';
 import ToDonate from './ToDonate';
-import Others from './Others';
+import OtherLinks from './OtherLinks';
 
 export default function Home() {
   return (
@@ -22,7 +22,7 @@ export default function Home() {
 
       <ToDonate />
 
-      <Others />
+      <OtherLinks />
     </>
   );
 }

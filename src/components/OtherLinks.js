@@ -1,6 +1,6 @@
-import './Others.scss';
+import './OtherLinks.scss';
 
-export default function Others() {
+export default function OtherLinks() {
   return (
     <div className="container">
       <div className="other-links">
