@@ -1,6 +1,7 @@
 # 한국 발도르프 영유아 교육대의 쇼핑몰 페이지
 
-클릭하여 확인: https://chwonseok.github.io/kaswece/
+- Live: https://chwonseok.github.io/kaswece/
+- last update: 2021.10.28.
 
 ## What's this
 
