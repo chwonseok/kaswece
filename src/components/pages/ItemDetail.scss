@@ -1,0 +1,64 @@
+.item-box {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+
+  margin-top: 5rem;
+  margin-bottom: 4rem;
+}
+
+.item-left {
+  width: 70%;
+}
+
+.item-left img {
+  width: 70%;
+}
+
+.item-right {
+  width: 30%;
+  text-align: center;
+}
+
+.item-right h1 {
+  font-size: 2rem;
+  font-weight: 600;
+
+  margin-bottom: 3rem;
+}
+
+.item-right h2 {
+  color: #818181;
+  font-size: 1.2rem;
+  font-weight: 700;
+
+  margin-bottom: 2rem;
+}
+
+.item-right h3 {
+  font-size: 0.9rem;
+
+  margin-bottom: 3rem;
+}
+
+.item-right h3 span {
+  font-weight: 700;
+}
+
+.item-btn {
+  padding: 1rem 1.5rem;
+}
+
+.border {
+  width: 90%;
+  height: 1px;
+  background: #818181;
+
+  margin: 3rem auto;
+}
+
+.item-description {
+  width: 90%;
+  margin: auto;
+}

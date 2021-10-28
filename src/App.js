@@ -11,6 +11,7 @@ import Toys from './components/pages/Toys';
 import Others from './components/pages/Others';
 
 import './App.scss';
+import ItemDetail from './components/pages/ItemDetail';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="/partners" exact component={Partners} />
           <Route path="/toys" exact component={Toys} />
           <Route path="/others" exact component={Others} />
+          <Route path="/items/:id" exact component={ItemDetail} />
         </Switch>
         <Footer />
       </BrowserRouter>
