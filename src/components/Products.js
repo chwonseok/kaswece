@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-import ItemDetail from './pages/ItemDetail';
 import './Products.scss';
 
 export default function Products({ items }) {
@@ -8,7 +7,7 @@ export default function Products({ items }) {
       {items.map((product) => {
         return (
           <div key={product.id} className="product-box">
-            <Link to={`/items/${product.id}`} data={product}>
+            <Link to={`/items/${product.id}`}>
               <div className="product-img">
                 <img
                   src={process.env.PUBLIC_URL + `/images/items/${product.link}`}
