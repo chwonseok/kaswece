@@ -29,7 +29,3 @@ React Responsive Carousel
 2. 아나바다 페이지 추가하기
 3. 게시판 페이지 추가하기
 4. 반응형 코드 추가하기
-
-## Issues
-
-- 마지막 update version이 2번의 deploy시도에도 불구하고 gh-pages에 올라가지 않는 상황
