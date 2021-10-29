@@ -38,7 +38,6 @@ export default function ItemDetail(props) {
           <h3>
             <span>배송비: </span> 무료
           </h3>
-          {/* 수량 function 추가로 넣기 */}
           <div className="item-quantity">
             <div
               onClick={() => {
