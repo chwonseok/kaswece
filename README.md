@@ -17,6 +17,7 @@ React Responsive Carousel
 
 ## Update history
 
+- 2021.11.03. - 게시판 페이지 추가하기
 - 2021.10.29. - 제품 상세 페이지 내 주문수량 조절 및 총 가격 계산 기능 추가
 - 2021.10.28. - 제품 상세 페이지 추가 from 놀잇감, 기타용품 pages
 - 2021.10.15. - landing page (main.js) 완성
@@ -26,5 +27,4 @@ React Responsive Carousel
 
 ## What to add
 
-1. 게시판 페이지 추가하기
-2. 반응형 코드 추가하기
+1. 반응형 코드 추가하기
