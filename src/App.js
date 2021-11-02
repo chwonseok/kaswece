@@ -9,6 +9,7 @@ import Guide from './components/pages/Guide';
 import Partners from './components/pages/Partners';
 import Toys from './components/pages/Toys';
 import Others from './components/pages/Others';
+import Board from './components/pages/Board';
 
 import './App.scss';
 import ItemDetail from './components/pages/ItemDetail';
@@ -26,6 +27,7 @@ function App() {
           <Route path="/partners" exact component={Partners} />
           <Route path="/toys" exact component={Toys} />
           <Route path="/others" exact component={Others} />
+          <Route path="/board" exact component={Board} />
           <Route path="/items/:id" exact component={ItemDetail} />
         </Switch>
         <Footer />

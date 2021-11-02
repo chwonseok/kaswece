@@ -42,7 +42,9 @@ export default function Nav() {
           </Link>
         </li>
         <li className="nav-item">
-          <div className="nav-btn">게시판</div>
+          <Link to="/board" className="nav-btn">
+            게시판
+          </Link>
         </li>
       </ul>
 

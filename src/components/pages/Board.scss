@@ -1,0 +1,45 @@
+$main-color: #e97879;
+
+.table {
+  text-align: center;
+  width: 100%;
+}
+
+.table thead {
+  border-bottom: #000 1px solid;
+}
+
+.table thead tr th {
+  font-weight: 700;
+  padding: 1rem;
+}
+
+.table thead tr th:nth-child(1) {
+  width: 10%;
+}
+
+.table thead tr th:nth-child(2) {
+  width: 40%;
+}
+
+.table thead tr th:nth-child(3) {
+  width: 10%;
+}
+
+.table thead tr th:nth-child(4) {
+  width: 10%;
+}
+
+.table thead tr th:nth-child(5) {
+  width: 10%;
+}
+
+.table tbody tr td {
+  padding: 1rem;
+  border-bottom: #000 1px solid;
+}
+
+.table tbody tr td:nth-child(2) span:hover {
+  cursor: pointer;
+  color: $main-color;
+}
