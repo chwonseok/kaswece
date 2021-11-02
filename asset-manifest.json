@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/kaswece/static/css/main.a7988de5.chunk.css",
-    "main.js": "/kaswece/static/js/main.249d1a59.chunk.js",
-    "main.js.map": "/kaswece/static/js/main.249d1a59.chunk.js.map",
+    "main.css": "/kaswece/static/css/main.230c85c0.chunk.css",
+    "main.js": "/kaswece/static/js/main.05ba4e92.chunk.js",
+    "main.js.map": "/kaswece/static/js/main.05ba4e92.chunk.js.map",
     "runtime-main.js": "/kaswece/static/js/runtime-main.1871e917.js",
     "runtime-main.js.map": "/kaswece/static/js/runtime-main.1871e917.js.map",
     "static/css/2.ed1298f3.chunk.css": "/kaswece/static/css/2.ed1298f3.chunk.css",
@@ -10,8 +10,9 @@
     "static/js/2.5fd64b05.chunk.js.map": "/kaswece/static/js/2.5fd64b05.chunk.js.map",
     "index.html": "/kaswece/index.html",
     "static/css/2.ed1298f3.chunk.css.map": "/kaswece/static/css/2.ed1298f3.chunk.css.map",
-    "static/css/main.a7988de5.chunk.css.map": "/kaswece/static/css/main.a7988de5.chunk.css.map",
+    "static/css/main.230c85c0.chunk.css.map": "/kaswece/static/css/main.230c85c0.chunk.css.map",
     "static/js/2.5fd64b05.chunk.js.LICENSE.txt": "/kaswece/static/js/2.5fd64b05.chunk.js.LICENSE.txt",
+    "static/media/board-bg.cd03268d.jpeg": "/kaswece/static/media/board-bg.cd03268d.jpeg",
     "static/media/donate-bg.d34db2c0.jpeg": "/kaswece/static/media/donate-bg.d34db2c0.jpeg",
     "static/media/Guide.scss": "/kaswece/static/media/guide-img.e33f85d4.png",
     "static/media/head-banner1.15b2f7da.jpeg": "/kaswece/static/media/head-banner1.15b2f7da.jpeg",
@@ -23,7 +24,7 @@
     "static/js/runtime-main.1871e917.js",
     "static/css/2.ed1298f3.chunk.css",
     "static/js/2.5fd64b05.chunk.js",
-    "static/css/main.a7988de5.chunk.css",
-    "static/js/main.249d1a59.chunk.js"
+    "static/css/main.230c85c0.chunk.css",
+    "static/js/main.05ba4e92.chunk.js"
   ]
 }
