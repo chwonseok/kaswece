@@ -43,3 +43,24 @@ $main-color: #e97879;
   cursor: pointer;
   color: $main-color;
 }
+
+.btns-box {
+  width: 100%;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btns-box input {
+  font-size: 1.4rem;
+  border: 1px #000 solid;
+  padding: 0.6rem 1.5rem;
+
+  margin-right: 1rem;
+}
+
+.btns-box .btn {
+  font-size: 1rem;
+  padding: 0.6rem 1.5rem;
+  height: 100%;
+}

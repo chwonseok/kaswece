@@ -35,6 +35,16 @@ export default function Board() {
             </tbody>
           </table>
         </div>
+
+        <div className="btns-box">
+          <div>
+            <input type="text" />
+            <button className="btn board-search">검색</button>
+          </div>
+          <div>
+            <button className="btn board-write">글쓰기</button>
+          </div>
+        </div>
       </div>
     </>
   );
