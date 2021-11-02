@@ -42,9 +42,6 @@ export default function Nav() {
           </Link>
         </li>
         <li className="nav-item">
-          <div className="nav-btn">아나바다</div>
-        </li>
-        <li className="nav-item">
           <div className="nav-btn">게시판</div>
         </li>
       </ul>
