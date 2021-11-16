@@ -4,19 +4,11 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="company-info">
-        <div className="company-info__main flex">
-          <a href="#">
-            <span>CONTACT US</span>
-          </a>
-          <a href="#">
-            <span>이용약관</span>
-          </a>
-          <a href="#">
-            <span>개인정보처리방침</span>
-          </a>
-          <a href="#">
-            <span>사업자정보확인</span>
-          </a>
+        <div className="company-info__main">
+          <span>CONTACT US</span>
+          <span>이용약관</span>
+          <span>개인정보처리방침</span>
+          <span>사업자정보확인</span>
         </div>
 
         <div className="company-info__detail-wrap">

@@ -40,8 +40,8 @@ a {
 
 // For smooth effect of Dropdown
 .nav-item {
-  height: 2rem;
-  line-height: 2rem;
+  height: 1.5rem;
+  line-height: 1.5rem;
 }
 
 // Nav bar effect
@@ -78,5 +78,22 @@ a {
 .nav-right {
   div {
     margin-right: 2rem;
+  }
+}
+
+/**********************************************
+*************** RESPONSIVE CODE ***************
+***********************************************/
+.mobile-nav {
+  width: 95%;
+  margin: auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+
+  .home {
+    font-size: 1.4rem;
   }
 }
