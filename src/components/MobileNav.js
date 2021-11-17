@@ -5,15 +5,20 @@ const MobileNav = () => {
   const [showMenuModal, setShowMenuModal] = useState(false);
 
   const handleMenuModal = () => {
-    setShowMenuModal(true);
+    setShowMenuModal(!showMenuModal);
+  };
+
+  const handleMenuModalOff = (e) => {
+    const clicked = e.target.closest('.menu-modal__box');
+    if (!clicked) setShowMenuModal(false);
   };
 
   const MenuModal = () => {
     return (
-      <div className="menu-modal__bg">
+      <div onClick={handleMenuModalOff} className="menu-modal__bg">
         <div className="menu-modal__box">
           <div className="menu-modal__header">
-            <Link to="/kaswece" className="home">
+            <Link onClick={handleMenuModal} to="/kaswece" className="home">
               KASWECE
             </Link>
             <div>
@@ -22,32 +27,56 @@ const MobileNav = () => {
           </div>
           <ul>
             <li className="mobile-menu__item">
-              <Link to="/greeting" className="mobile-menu__btn">
+              <Link
+                onClick={handleMenuModal}
+                to="/greeting"
+                className="mobile-menu__btn"
+              >
                 인사말
               </Link>
             </li>
             <li className="mobile-menu__item">
-              <Link to="/guide" className="mobile-menu__btn">
+              <Link
+                onClick={handleMenuModal}
+                to="/guide"
+                className="mobile-menu__btn"
+              >
                 이용안내
               </Link>
             </li>
             <li className="mobile-menu__item">
-              <Link to="/partners" className="mobile-menu__btn">
+              <Link
+                onClick={handleMenuModal}
+                to="/partners"
+                className="mobile-menu__btn"
+              >
                 회원기관
               </Link>
             </li>
             <li className="mobile-menu__item">
-              <Link to="/toys" className="mobile-menu__btn">
+              <Link
+                onClick={handleMenuModal}
+                to="/toys"
+                className="mobile-menu__btn"
+              >
                 놀잇감
               </Link>
             </li>
             <li className="mobile-menu__item">
-              <Link to="/others" className="mobile-menu__btn">
+              <Link
+                onClick={handleMenuModal}
+                to="/others"
+                className="mobile-menu__btn"
+              >
                 기타용품
               </Link>
             </li>
             <li className="mobile-menu__item">
-              <Link to="/board" className="mobile-menu__btn">
+              <Link
+                onClick={handleMenuModal}
+                to="/board"
+                className="mobile-menu__btn"
+              >
                 게시판
               </Link>
             </li>
