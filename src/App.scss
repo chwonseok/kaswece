@@ -67,3 +67,19 @@ textarea {
   max-width: 1540px;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 1000px) {
+  html {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 790px) {
+  html {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 650px) {
+  html {
+    font-size: 10px;
+  }
+}

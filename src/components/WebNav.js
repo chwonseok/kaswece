@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Dropdown from './Dropdown';
 
-import './Nav.scss';
+import './WebNav.scss';
 
 const WebNav = () => {
   const [dropdown, setDropdown] = useState(false);

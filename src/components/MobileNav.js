@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
+import './MobileNav.scss';
+
 const MobileNav = () => {
   const [showMenuModal, setShowMenuModal] = useState(false);
 
