@@ -44,3 +44,13 @@
   font-size: 0.9rem;
   font-weight: 500;
 }
+
+@media screen and (max-width: 420px) {
+  .products-box {
+    display: block;
+
+    .product-img {
+      width: 95%;
+    }
+  }
+}

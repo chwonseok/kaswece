@@ -116,3 +116,25 @@
 .total-price h3 {
   font-weight: 600;
 }
+
+@media screen and (max-width: 650px) {
+  .item-box {
+    display: block;
+    width: 100%;
+
+    .item-left {
+      width: 80%;
+      margin: auto;
+      margin-bottom: 2rem;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .item-right {
+      width: 80%;
+      margin: auto;
+    }
+  }
+}
