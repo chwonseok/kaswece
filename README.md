@@ -17,6 +17,7 @@ React Responsive Carousel
 
 ## Update history
 
+- 2021.11.18. - 반응형 디자인 모두 적용 완료
 - 2021.11.17. - 화면 사이즈에 따라(웹 -> 모바일) 전체적 폰트 사이즈 단계적으로 작아지도록 수정
 - 2021.11.17. - 모바일 전환 시 랜딩페이지 영상을 thumbnail로 수정
 - 2021.11.16. - Nav 반응형, 하위 메뉴 모달창 추가
@@ -29,5 +30,3 @@ React Responsive Carousel
 - 2021.10.12. - gh-pages로 live 기능 추가
 
 ## What to add
-
-1. 반응형 코드 추가하기 (작업 중)
