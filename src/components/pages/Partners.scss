@@ -30,3 +30,16 @@
   cursor: pointer;
   opacity: 0.7;
 }
+
+@media screen and (max-width: 650px) {
+  .partner-box {
+    width: 40%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .partner-box {
+    width: 70%;
+  }
+}
