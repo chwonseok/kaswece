@@ -36,3 +36,18 @@ $main-color: #e97879;
   background-size: contain;
   background-repeat: no-repeat;
 }
+
+@media screen and (max-width: 790px) {
+  .guide-box {
+    display: block;
+    text-align: center;
+
+    .guide-left {
+      width: 100%;
+    }
+
+    .guide-right {
+      display: none;
+    }
+  }
+}
