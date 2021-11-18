@@ -5,17 +5,18 @@ $main-color: #e97879;
   justify-content: space-evenly;
 }
 
-// Solution 1
-
 .newitems-item {
   position: relative;
-  display: grid;
   width: 300px;
+}
+
+.newitems-grid {
+  display: grid;
 }
 
 .newitems-item img {
   width: 100%;
-  height: 70%;
+  height: 75%;
 }
 
 .newitems-item img,
@@ -31,73 +32,26 @@ $main-color: #e97879;
   margin-left: 0.5rem;
   margin-top: 0.5rem;
 
-  font-size: 0.8rem;
+  font-size: 0.7rem;
 
   background: $main-color;
   color: #fff;
-  width: 44px;
-  height: 44px;
+  width: 2.5rem;
+  height: 2.5rem;
   border-radius: 50%;
 }
 
 .newitems-info {
-  margin-top: -4rem;
+  margin-top: -2rem;
   text-align: center;
 }
 
 .newitems-name {
-  font-weight: 600;
+  font-size: 0.8rem;
+  font-weight: 500;
   margin-bottom: 0.5rem;
 }
 
 .newitems-price {
   font-size: 0.9rem;
 }
-
-// Solution 2
-
-// .newitems-item {
-//   position: relative;
-//   width: 300px;
-//   height: 180px;
-//   margin-bottom: 1rem;
-// }
-
-// .newitems-item img {
-//   position: absolute;
-//   width: 100%;
-//   height: 100%;
-// }
-
-// .newitems-new {
-//   position: absolute;
-//   left: 0.5rem;
-//   top: 0.5rem;
-//   text-align: center;
-//   padding-top: 18px;
-
-//   font-size: 0.8rem;
-
-//   background: $main-color;
-//   color: #fff;
-//   width: 44px;
-//   height: 44px;
-//   border-radius: 50%;
-// }
-
-// .newitems-info {
-//   position: absolute;
-//   left: 50%;
-//   transform: translateX(-50%);
-//   bottom: -4rem;
-//   text-align: center;
-// }
-
-// .newitems-name {
-//   font-weight: 600;
-//   margin-bottom: 0.5rem;
-// }
-
-// .newitems-price {
-//   font-size: 0.9rem;
-// }
