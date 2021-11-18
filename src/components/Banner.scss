@@ -1,18 +1,42 @@
 .carousel {
   .slide {
     cursor: pointer;
-  }
-}
 
-.carousel {
-  .slide {
     .legend {
       background: none;
       top: 40%;
       font-family: 'Nanum Brush Script', cursive;
-      font-size: 5rem;
+      font-size: 4rem;
       opacity: 1;
       border: none;
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .carousel {
+    .slide {
+      .legend {
+        font-size: 3.5rem;
+      }
+    }
+  }
+}
+@media screen and (max-width: 790px) {
+  .carousel {
+    .slide {
+      .legend {
+        font-size: 2.5rem;
+      }
+    }
+  }
+}
+@media screen and (max-width: 650px) {
+  .carousel {
+    .slide {
+      .legend {
+        font-size: 2rem;
+      }
     }
   }
 }
